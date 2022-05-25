@@ -1,0 +1,29 @@
+.header {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  &__list {
+    @include text(15px);
+    display: flex;
+    margin-left: 218px;
+    cursor: pointer;
+  }
+  &__items:hover{
+      color: #8979E8;
+  }
+  &__items {
+    transition: 0.3s;
+    margin-right: 30px;
+    color: #060606
+  }
+  &__button {
+    @include text(15px);
+    @include big-button;
+  }
+  &__button:hover{
+      background-color: #8979E8;
+  }
+}

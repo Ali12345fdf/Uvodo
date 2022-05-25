@@ -1,0 +1,41 @@
+.hero{
+    margin: 91px 0px 0px 110px;
+    position: relative;
+    &__pay{
+        @include text(15px);
+        color: #595959;
+        margin-bottom: 14px;
+    };
+    &__title{
+        @include text(54px);
+        width: 469px;
+        margin-bottom: 12px;
+        line-height: 67px;
+    };
+    &__description{
+        @include text(18px);
+        margin-bottom: 42px;
+        width: 481px;
+        line-height: 29px;
+    };
+    &__admin{
+        margin-right: 12px;
+    }
+    &__admin,&__shop{
+        @include button;
+    };
+    &__admin,&__shop:hover{
+        @include hover-button;
+    };
+    &__banner{
+        position: absolute;
+        top: -90px;
+        right: 3px;
+    }
+    &__apps{
+        display: block;
+        margin: 0 auto;
+        margin-top: 157px;
+        margin-bottom: 180px;
+    }
+}

@@ -1,0 +1,153 @@
+.header__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.header__list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #090909;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 218px;
+  cursor: pointer;
+}
+
+.header__items:hover {
+  color: #8979E8;
+}
+
+.header__items {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 30px;
+  color: #060606;
+}
+
+.header__button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #090909;
+  padding: 14px 24px;
+  margin-right: 55px;
+  background: #060606;
+  border-radius: 300px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #ffff;
+  border: none;
+}
+
+.header__button:hover {
+  background-color: #8979E8;
+}
+
+.hero {
+  margin: 91px 0px 0px 110px;
+  position: relative;
+}
+
+.hero__pay {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #090909;
+  color: #595959;
+  margin-bottom: 14px;
+}
+
+.hero__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 16px;
+  color: #090909;
+  width: 469px;
+  margin-bottom: 12px;
+  line-height: 67px;
+}
+
+.hero__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #090909;
+  margin-bottom: 42px;
+  width: 481px;
+  line-height: 29px;
+}
+
+.hero__admin {
+  margin-right: 12px;
+}
+
+.hero__admin, .hero__shop {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #090909;
+  border: 2px solid #8979E8;
+  padding: 0px 47px;
+  background-color: white;
+  border-radius: 30px;
+  color: #8979E8;
+}
+
+.hero__admin, .hero__shop:hover {
+  background-color: #8979E8;
+  color: white;
+}
+
+.hero__banner {
+  position: absolute;
+  top: -90px;
+  right: 3px;
+}
+
+.hero__apps {
+  display: block;
+  margin: 0 auto;
+  margin-top: 157px;
+  margin-bottom: 180px;
+}
+
+body, main, button, h1, h2, h3, h4, h5, h6, div, span, p, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}

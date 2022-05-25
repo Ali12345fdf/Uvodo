@@ -1,0 +1,31 @@
+@mixin text($size) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: $size;
+  line-height: 16px;
+  color: #090909;
+};
+@mixin big-button {
+    padding: 14px 24px;
+    margin-right: 55px;
+    background: #060606;
+    border-radius: 300px;
+    transition: 0.3s;
+    color: #ffff;
+    border: none;
+};
+@mixin button {
+  @include text(15px);
+  border: 2px solid #8979E8;
+  padding: 0px 47px;
+  background-color: white;
+  border-radius:30px;
+  color: #8979E8;
+};
+@mixin hover-button {
+  background-color: #8979E8;
+  color: white;
+};
+
+
