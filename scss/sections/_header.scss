@@ -6,24 +6,26 @@
     margin-top: 20px;
   }
   &__list {
-    @include text(15px);
+    @include text(15px, 16px);
     display: flex;
     margin-left: 218px;
     cursor: pointer;
   }
-  &__items:hover{
-      color: #8979E8;
-  }
-  &__items {
+    &__items {
+      list-style: none;
+    text-decoration: none;
     transition: 0.3s;
     margin-right: 30px;
-    color: #060606
+    color: #060606;
+  }
+  &__items:hover {
+    color: #8979e8;
   }
   &__button {
-    @include text(15px);
+    @include text(15px, 20px);
     @include big-button;
   }
-  &__button:hover{
-      background-color: #8979E8;
+  &__button:hover {
+    background-color: #8979e8;
   }
 }

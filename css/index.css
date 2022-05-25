@@ -25,15 +25,17 @@
   cursor: pointer;
 }
 
-.header__items:hover {
-  color: #8979E8;
-}
-
 .header__items {
+  list-style: none;
+  text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-right: 30px;
   color: #060606;
+}
+
+.header__items:hover {
+  color: #8979e8;
 }
 
 .header__button {
@@ -41,7 +43,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 20px;
   color: #090909;
   padding: 14px 24px;
   margin-right: 55px;
@@ -54,7 +56,7 @@
 }
 
 .header__button:hover {
-  background-color: #8979E8;
+  background-color: #8979e8;
 }
 
 .hero {
@@ -67,7 +69,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 24px;
   color: #090909;
   color: #595959;
   margin-bottom: 14px;
@@ -78,11 +80,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 54px;
-  line-height: 16px;
+  line-height: 64px;
   color: #090909;
   width: 469px;
   margin-bottom: 12px;
-  line-height: 67px;
 }
 
 .hero__description {
@@ -90,23 +91,22 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 16px;
+  line-height: 29px;
   color: #090909;
   margin-bottom: 42px;
   width: 481px;
-  line-height: 29px;
 }
 
 .hero__admin {
   margin-right: 12px;
 }
 
-.hero__admin, .hero__shop {
+.hero__admin {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 22px;
   color: #090909;
   border: 2px solid #8979E8;
   padding: 0px 47px;
@@ -115,7 +115,26 @@
   color: #8979E8;
 }
 
-.hero__admin, .hero__shop:hover {
+.hero__shop {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #090909;
+  border: 2px solid #8979E8;
+  padding: 0px 47px;
+  background-color: white;
+  border-radius: 30px;
+  color: #8979E8;
+}
+
+.hero__admin:hover {
+  background-color: #8979E8;
+  color: white;
+}
+
+.hero__shop:hover {
   background-color: #8979E8;
   color: white;
 }
@@ -131,6 +150,55 @@
   margin: 0 auto;
   margin-top: 157px;
   margin-bottom: 180px;
+}
+
+.hero a {
+  color: #060606;
+}
+
+.design {
+  text-align: center;
+  background: #F3F1FC;
+}
+
+.design__mobile {
+  padding-top: 83px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #090909;
+  color: #624CE0;
+  margin-bottom: 12px;
+}
+
+.design__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 67px;
+  color: #090909;
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.design__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #090909;
+  margin: 0 auto;
+  margin-bottom: 23px;
+  width: 608px;
+}
+
+.design img {
+  padding-bottom: 35px;
 }
 
 body, main, button, h1, h2, h3, h4, h5, h6, div, span, p, ul {

@@ -1,0 +1,25 @@
+.design{
+    text-align: center;
+    background: #F3F1FC;
+    &__mobile{
+        padding-top: 83px;
+        @include text(15px,24px);
+        color: #624CE0;
+        margin-bottom: 12px;
+    }
+    &__title{
+        @include text(53px,67px);
+        width: 650px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    &__description{
+        @include text(18px,29px);
+        margin: 0 auto;
+        margin-bottom: 23px;
+        width: 608px;
+    }
+    img{
+        padding-bottom: 35px;
+    }
+}
